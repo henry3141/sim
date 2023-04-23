@@ -220,7 +220,7 @@ impl Builder {
                 //calculate max fps at current delta time
                 let max_fps = 1.0 / took.as_secs_f64();
                 if max_fps < 60.0 {
-                    println!("Max FPS: {}", max_fps);
+                    println!("FPS: {}", max_fps);
                 }
                 timer.wait();
             }
