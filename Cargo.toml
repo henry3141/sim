@@ -1,0 +1,12 @@
+[package]
+name = "physics"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+flo_canvas = "0.3.1"
+flo_draw = "0.3.1"
+futures = "0.3.28"
+rand = "0.8.5"
